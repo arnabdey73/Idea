@@ -1,0 +1,16 @@
+[2016-06-09 19:39:14] __rvm_post_configure_ruby
+__rvm_post_configure_ruby () 
+{ 
+    __rvm_post_configure_ruby_fix_athlon_sse2;
+    __rvm_post_configure_ruby_update_setup
+}
+current path: /Users/arnabdey73/.rvm/src/ruby-1.9.3-p551
+GEM_HOME=/Users/arnabdey73/.rvm/gems/ruby-2.3.0
+PATH=/usr/local/opt/gcc49/bin:/usr/local/opt/pkg-config/bin:/usr/local/opt/libtool/bin:/usr/local/opt/automake/bin:/usr/local/opt/autoconf/bin:/Users/arnabdey73/.rvm/gems/ruby-2.3.0/bin:/Users/arnabdey73/.rvm/gems/ruby-2.3.0@global/bin:/Users/arnabdey73/.rvm/rubies/ruby-2.3.0/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arnabdey73/.rvm/bin
+GEM_PATH=/Users/arnabdey73/.rvm/gems/ruby-2.3.0:/Users/arnabdey73/.rvm/gems/ruby-2.3.0@global
+command(1): __rvm_post_configure_ruby
+++ __rvm_post_configure_ruby_fix_athlon_sse2
+++ [[ -f /proc/cpuinfo ]]
+++ __rvm_post_configure_ruby_update_setup
+++ typeset option
+++ ((  0 == 1  ))

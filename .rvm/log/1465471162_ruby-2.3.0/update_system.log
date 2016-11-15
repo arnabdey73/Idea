@@ -1,0 +1,70 @@
+[2016-06-09 16:49:22] requirements_osx_brew_update_system
+requirements_osx_brew_update_system () 
+{ 
+    if __rvm_version_compare "${_system_version}" -ge 10.7; then
+        __rvm_detect_xcode_version_at_least 4.6.2 || __CLT_version_at_least 4.6.0 || { 
+            \typeset ret=$?;
+            rvm_error "
+Xcode version older than 4.6.2 installed, download and install newer version from:
+
+    http://connect.apple.com
+
+After installation open Xcode, go to Downloads and install Command Line Tools.
+";
+            return $ret
+        };
+    fi;
+    brew update || { 
+        \typeset ret=$?;
+        rvm_error "Failed to update Homebrew, follow instructions here:
+    https://github.com/Homebrew/homebrew/wiki/Common-Issues
+and make sure \`brew update\` works before continuing.";
+        return $ret
+    }
+}
+current path: /Users/arnabdey73/.rvm/src/rvm
+PATH=/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arnabdey73/.rvm/bin
+command(2): requirements_osx_brew_update_system ruby-2.3.0
+++ /scripts/functions/requirements/osx_brew : requirements_osx_brew_update_system()  343 > __rvm_version_compare 10.11 -ge 10.7
+++ /scripts/functions/utility : __rvm_version_compare()  174 > typeset first
++++ /scripts/functions/utility : __rvm_version_compare()  175 > command printf %b '10.11\n10.7\n'
++++ /scripts/functions/utility : __rvm_version_compare()  175 > __rvm_version_sort
++++ /scripts/functions/utility : __rvm_version_compare()  175 > printf %b '10.11\n10.7\n'
++++ /scripts/functions/utility : __rvm_version_compare()  175 > command head -n1
++++ /scripts/functions/utility : __rvm_version_sort()  169 > LC_ALL=C
++++ /scripts/functions/utility : __rvm_version_sort()  169 > command sort -t. -k 1,1n -k 2,2n -k 3,3n -k 4,4n -k 5,5n
++++ /scripts/functions/utility : __rvm_version_compare()  175 > head -n1
++++ /scripts/functions/utility : __rvm_version_sort()  169 > sort -t. -k 1,1n -k 2,2n -k 3,3n -k 4,4n -k 5,5n
+++ /scripts/functions/utility : __rvm_version_compare()  175 > first=10.7
+++ /scripts/functions/utility : __rvm_version_compare()  177 > case "$2" in
+++ /scripts/functions/utility : __rvm_version_compare()  191 > [[ 10.7 == \h\e\a\d ]]
+++ /scripts/functions/utility : __rvm_version_compare()  193 > [[ 10.7 == \1\0\.\7 ]]
+++ /scripts/functions/utility : __rvm_version_compare()  213 > return 0
+++ /scripts/functions/requirements/osx_brew : requirements_osx_brew_update_system()  345 > __rvm_detect_xcode_version_at_least 4.6.2
++++ /scripts/functions/utility : __rvm_detect_xcode_version_at_least()  160 > __rvm_detect_xcode_version
++++ /scripts/functions/utility : __rvm_detect_xcode_version()  131 > typeset version_file
++++ /scripts/functions/utility : __rvm_detect_xcode_version()  132 > for version_file in /Applications/Xcode.app/Contents/version.plist /Developer/Applications/Xcode.app/Contents/version.plist
++++ /scripts/functions/utility : __rvm_detect_xcode_version()  137 > [[ -f /Applications/Xcode.app/Contents/version.plist ]]
++++ /scripts/functions/utility : __rvm_detect_xcode_version()  140 > [[ -x /usr/libexec/PlistBuddy ]]
++++ /scripts/functions/utility : __rvm_detect_xcode_version()  142 > /usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' /Applications/Xcode.app/Contents/version.plist
++++ /scripts/functions/utility : __rvm_detect_xcode_version()  146 > return 0
+++ /scripts/functions/utility : __rvm_detect_xcode_version_at_least()  160 > typeset __xcode_version=7.3.1
+++ /scripts/functions/utility : __rvm_detect_xcode_version_at_least()  161 > [[ -n 7.3.1 ]]
+++ /scripts/functions/utility : __rvm_detect_xcode_version_at_least()  162 > __rvm_version_compare 7.3.1 -ge 4.6.2
+++ /scripts/functions/utility : __rvm_version_compare()  174 > typeset first
++++ /scripts/functions/utility : __rvm_version_compare()  175 > command printf %b '7.3.1\n4.6.2\n'
++++ /scripts/functions/utility : __rvm_version_compare()  175 > printf %b '7.3.1\n4.6.2\n'
++++ /scripts/functions/utility : __rvm_version_compare()  175 > __rvm_version_sort
++++ /scripts/functions/utility : __rvm_version_sort()  169 > LC_ALL=C
++++ /scripts/functions/utility : __rvm_version_sort()  169 > command sort -t. -k 1,1n -k 2,2n -k 3,3n -k 4,4n -k 5,5n
++++ /scripts/functions/utility : __rvm_version_compare()  175 > command head -n1
++++ /scripts/functions/utility : __rvm_version_sort()  169 > sort -t. -k 1,1n -k 2,2n -k 3,3n -k 4,4n -k 5,5n
++++ /scripts/functions/utility : __rvm_version_compare()  175 > head -n1
+++ /scripts/functions/utility : __rvm_version_compare()  175 > first=4.6.2
+++ /scripts/functions/utility : __rvm_version_compare()  177 > case "$2" in
+++ /scripts/functions/utility : __rvm_version_compare()  191 > [[ 4.6.2 == \h\e\a\d ]]
+++ /scripts/functions/utility : __rvm_version_compare()  193 > [[ 4.6.2 == \4\.\6\.\2 ]]
+++ /scripts/functions/utility : __rvm_version_compare()  213 > return 0
+++ /scripts/functions/utility : __rvm_detect_xcode_version_at_least()  163 > true
+++ /scripts/functions/requirements/osx_brew : requirements_osx_brew_update_system()  359 > brew update
+Already up-to-date.

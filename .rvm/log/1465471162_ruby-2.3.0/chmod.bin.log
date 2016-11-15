@@ -1,0 +1,25 @@
+[2016-06-09 17:00:00] __rvm_set_executable
+__rvm_set_executable () 
+{ 
+    for __file in "$@";
+    do
+        [[ -x "${__file}" ]] || chmod +x "${__file}";
+    done
+}
+current path: /Users/arnabdey73/.rvm/src/ruby-2.3.0
+PATH=/usr/local/opt/pkg-config/bin:/usr/local/opt/libtool/bin:/usr/local/opt/automake/bin:/usr/local/opt/autoconf/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arnabdey73/.rvm/bin
+command(8): __rvm_set_executable /Users/arnabdey73/.rvm/rubies/ruby-2.3.0/bin/erb /Users/arnabdey73/.rvm/rubies/ruby-2.3.0/bin/gem /Users/arnabdey73/.rvm/rubies/ruby-2.3.0/bin/irb /Users/arnabdey73/.rvm/rubies/ruby-2.3.0/bin/rake /Users/arnabdey73/.rvm/rubies/ruby-2.3.0/bin/rdoc /Users/arnabdey73/.rvm/rubies/ruby-2.3.0/bin/ri /Users/arnabdey73/.rvm/rubies/ruby-2.3.0/bin/ruby
+++ /scripts/functions/gemset : __rvm_set_executable()  366 > for __file in '"$@"'
+++ /scripts/functions/gemset : __rvm_set_executable()  367 > [[ -x /Users/arnabdey73/.rvm/rubies/ruby-2.3.0/bin/erb ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  366 > for __file in '"$@"'
+++ /scripts/functions/gemset : __rvm_set_executable()  367 > [[ -x /Users/arnabdey73/.rvm/rubies/ruby-2.3.0/bin/gem ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  366 > for __file in '"$@"'
+++ /scripts/functions/gemset : __rvm_set_executable()  367 > [[ -x /Users/arnabdey73/.rvm/rubies/ruby-2.3.0/bin/irb ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  366 > for __file in '"$@"'
+++ /scripts/functions/gemset : __rvm_set_executable()  367 > [[ -x /Users/arnabdey73/.rvm/rubies/ruby-2.3.0/bin/rake ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  366 > for __file in '"$@"'
+++ /scripts/functions/gemset : __rvm_set_executable()  367 > [[ -x /Users/arnabdey73/.rvm/rubies/ruby-2.3.0/bin/rdoc ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  366 > for __file in '"$@"'
+++ /scripts/functions/gemset : __rvm_set_executable()  367 > [[ -x /Users/arnabdey73/.rvm/rubies/ruby-2.3.0/bin/ri ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  366 > for __file in '"$@"'
+++ /scripts/functions/gemset : __rvm_set_executable()  367 > [[ -x /Users/arnabdey73/.rvm/rubies/ruby-2.3.0/bin/ruby ]]

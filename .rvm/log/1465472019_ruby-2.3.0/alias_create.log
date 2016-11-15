@@ -1,0 +1,55 @@
+[2016-06-09 17:03:39] alias_create_execute
+alias_create_execute () 
+{ 
+    for _path in "$rvm_rubies_path" "$rvm_environments_path" "$rvm_wrappers_path";
+    do
+        if [[ -L "$_path/$alias_name" ]]; then
+            \command \rm -fv "$_path/$alias_name" || return $?;
+        fi;
+        \command \ln -fs "$_path/$rvm_ruby_string" "$_path/$alias_name" || return $?;
+    done;
+    __rvm_db_ "$rvm_path/config/alias" "$alias_name" "$rvm_ruby_string"
+}
+current path: /Users/arnabdey73/.rvm/src/rvm
+GEM_HOME=/Users/arnabdey73/.rvm/gems/ruby-2.3.0
+PATH=/Users/arnabdey73/.rvm/gems/ruby-2.3.0/bin:/Users/arnabdey73/.rvm/gems/ruby-2.3.0@global/bin:/Users/arnabdey73/.rvm/rubies/ruby-2.3.0/bin:/Users/arnabdey73/.rvm/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+GEM_PATH=/Users/arnabdey73/.rvm/gems/ruby-2.3.0:/Users/arnabdey73/.rvm/gems/ruby-2.3.0@global
+command(1): alias_create_execute
++ /scripts/alias : alias_create_execute()  27 > for _path in '"$rvm_rubies_path"' '"$rvm_environments_path"' '"$rvm_wrappers_path"'
++ /scripts/alias : alias_create_execute()  29 > [[ -L /Users/arnabdey73/.rvm/rubies/default ]]
++ /scripts/alias : alias_create_execute()  30 > command rm -fv /Users/arnabdey73/.rvm/rubies/default
++ /scripts/alias : alias_create_execute()  30 > rm -fv /Users/arnabdey73/.rvm/rubies/default
+/Users/arnabdey73/.rvm/rubies/default
++ /scripts/alias : alias_create_execute()  32 > command ln -fs /Users/arnabdey73/.rvm/rubies/ruby-2.3.0 /Users/arnabdey73/.rvm/rubies/default
++ /scripts/alias : alias_create_execute()  32 > ln -fs /Users/arnabdey73/.rvm/rubies/ruby-2.3.0 /Users/arnabdey73/.rvm/rubies/default
++ /scripts/alias : alias_create_execute()  27 > for _path in '"$rvm_rubies_path"' '"$rvm_environments_path"' '"$rvm_wrappers_path"'
++ /scripts/alias : alias_create_execute()  29 > [[ -L /Users/arnabdey73/.rvm/environments/default ]]
++ /scripts/alias : alias_create_execute()  30 > command rm -fv /Users/arnabdey73/.rvm/environments/default
++ /scripts/alias : alias_create_execute()  30 > rm -fv /Users/arnabdey73/.rvm/environments/default
+/Users/arnabdey73/.rvm/environments/default
++ /scripts/alias : alias_create_execute()  32 > command ln -fs /Users/arnabdey73/.rvm/environments/ruby-2.3.0 /Users/arnabdey73/.rvm/environments/default
++ /scripts/alias : alias_create_execute()  32 > ln -fs /Users/arnabdey73/.rvm/environments/ruby-2.3.0 /Users/arnabdey73/.rvm/environments/default
++ /scripts/alias : alias_create_execute()  27 > for _path in '"$rvm_rubies_path"' '"$rvm_environments_path"' '"$rvm_wrappers_path"'
++ /scripts/alias : alias_create_execute()  29 > [[ -L /Users/arnabdey73/.rvm/wrappers/default ]]
++ /scripts/alias : alias_create_execute()  30 > command rm -fv /Users/arnabdey73/.rvm/wrappers/default
++ /scripts/alias : alias_create_execute()  30 > rm -fv /Users/arnabdey73/.rvm/wrappers/default
+/Users/arnabdey73/.rvm/wrappers/default
++ /scripts/alias : alias_create_execute()  32 > command ln -fs /Users/arnabdey73/.rvm/wrappers/ruby-2.3.0 /Users/arnabdey73/.rvm/wrappers/default
++ /scripts/alias : alias_create_execute()  32 > ln -fs /Users/arnabdey73/.rvm/wrappers/ruby-2.3.0 /Users/arnabdey73/.rvm/wrappers/default
++ /scripts/alias : alias_create_execute()  35 > __rvm_db_ /Users/arnabdey73/.rvm/config/alias default ruby-2.3.0
++ /scripts/functions/db : __rvm_db_()  78 > typeset __db __key __value
++ /scripts/functions/db : __rvm_db_()  79 > __db=/Users/arnabdey73/.rvm/config/alias
++ /scripts/functions/db : __rvm_db_()  80 > __key=default
++ /scripts/functions/db : __rvm_db_()  81 > shift 2
++ /scripts/functions/db : __rvm_db_()  82 > __value=ruby-2.3.0
++ /scripts/functions/db : __rvm_db_()  83 > case "${__value}" in
++ /scripts/functions/db : __rvm_db_()  91 > __rvm_db_add /Users/arnabdey73/.rvm/config/alias default ruby-2.3.0
++ /scripts/functions/db : __rvm_db_add()  59 > typeset __dir=/Users/arnabdey73/.rvm/config
++ /scripts/functions/db : __rvm_db_add()  60 > [[ -f /Users/arnabdey73/.rvm/config/alias ]]
++ /scripts/functions/db : __rvm_db_add()  61 > __rvm_db_remove /Users/arnabdey73/.rvm/config/alias default
++ /scripts/functions/db : __rvm_db_remove()  50 > [[ -f /Users/arnabdey73/.rvm/config/alias ]]
++ /scripts/functions/db : __rvm_db_remove()  52 > __rvm_sed -e '\#^default=# d' -e '/^$/d' /Users/arnabdey73/.rvm/config/alias
++ /scripts/functions/support : __rvm_sed()  277 > sed -e '\#^default=# d' -e '/^$/d' /Users/arnabdey73/.rvm/config/alias
++ /scripts/functions/db : __rvm_db_remove()  53 > command mv -f /Users/arnabdey73/.rvm/config/alias.new /Users/arnabdey73/.rvm/config/alias
++ /scripts/functions/db : __rvm_db_remove()  53 > mv -f /Users/arnabdey73/.rvm/config/alias.new /Users/arnabdey73/.rvm/config/alias
++ /scripts/functions/db : __rvm_db_add()  65 > printf '%b=%b\n' default ruby-2.3.0

@@ -1,0 +1,442 @@
+port version
+svn
+pwd
+ls
+cd /Volumes/Elements/
+ls -al
+cp -r pems /Users/arnabdey73/
+cd pems
+ls
+cd ../
+cd McHome/
+ls -al
+cp -r pems /Users/arnabdey73/
+cd /Users/arnabdey73/
+ls
+cd pems/
+ls
+ls -al
+sudo chmod 400 *.pem
+ls -al
+ssh -i qach7auth.pem centos@52.62.141.84
+cd /Volumes/SAFEER/
+ls -al
+cd
+pwd
+cd Documents/VMware_Fusion_Professional_8.1.0.3272237/
+ls
+ls -al
+./keymaker 
+cd
+cd Desktop/
+ls
+cd 
+cd pems/
+ssh -i qach7auth.pem centos@52.62.141.84
+ssh -i qach7auth.pem centos@52.62.141.84
+ssh -i qach7auth.pem centos@52.62.38.207
+ssh -i qach7auth.pem centos@52.62.38.207
+ssh -i qach7auth.pem centos@52.62.38.207
+ssh -i qach7auth.pem centos@52.62.5.19
+ssh -i qach7auth.pem centos@52.62.5.19
+ssh -i qach7auth.pem centos@52.62.5.19
+ls-al
+ls -al
+history
+ping 192.168.1.199
+ping 192.168.1.199
+free -m
+sudo su
+port version
+echo $PATH
+cd /opt/local/bin/
+ls
+sudo su
+cd
+port version
+cd
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export MANPATH=/opt/local/share/man:$MANPATH
+port version
+ls -al
+vi .profile 
+source .profile 
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+sudo xcodebuild -license
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ls -al
+vi .viminfo 
+brew install wget
+port install git
+sudo port install git
+pwd
+cd /Volumes/Elements/McHome/
+ls -al
+cp -r ctmsp-* /Users/arnabdey73/
+cd /Users/arnabdey73/
+ls -al
+cd ctmsp-chef/
+git pull
+git pull
+git pull
+git pull
+git pull
+cd ../ctmsp-sample-project/
+git pull
+cd ../
+ls -al
+rm -rf ctmsp-*
+ls -al
+pwd
+git clone https://github.com/ctmsp/ctmsp-chef.git
+git clone https://github.com/ctmsp/ctmsp-chef.git
+git clone https://github.com/ctmsp/ctmsp-scripts.git
+git clone https://github.com/ctmsp/ctmsp-scripts.git
+git clone https://github.com/ctmsp/ctmsp-sample-project.git
+git clone https://github.com/ctmsp/ctmsp-sample-project.git
+vi /etc/ssh/ssh_config 
+wd
+pwd
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+brew install gpg
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+curl -sSL https://get.rvm.io | bash -s stable --ruby
+source /Users/arnabdey73/.rvm/scripts/rvm
+curl -sSL https://get.rvm.io | bash -s stable --ruby
+ifconfig 
+ping 192.168.1.30
+ping 192.168.1.30
+ping 192.168.1.30
+ping 192.168.1.250
+ping 192.168.1.129
+ping 192.168.1.250
+curl -sSL https://get.rvm.io | bash -s stable --ruby
+ls -al
+cd .rvm/
+ls
+ls -al
+cd scripts/
+ls -al
+pwd
+vi rvm 
+source rvm
+cd
+curl -sSL https://get.rvm.io | bash -s stable --ruby
+source /Users/arnabdey73/.rvm/scripts/rvm
+rvm install 1.9.3
+rvm docs generate-ri
+rvm use 1.9.3 --default
+/bin/bash --login
+pwd
+ssh -i qach7auth.pem centos@52.62.5.19
+rvm use 1.9.3 --default
+sudo rvm use 1.9.3 --default
+rvmsudo rvm use 1.9.3 --default
+vi /Users/arnabdey73/.rvm/bin/rvm
+source /Users/arnabdey73/.rvm/bin/rvm
+rvmsudo rvm use 1.9.3 --default
+rvm use 1.9.3 --default
+pwd
+gem install knife-ec2 --no-ri --no-rdoc
+ruby -v
+port -version
+port version
+ssh root@192.168.1.57
+history
+pwd
+gem install net-ssh --version 2.2.2 --no-ri --no-rdoc
+gem install net-ssh-gateway --version 1.2.0 --no-ri --no-rdoc
+ssh root@192.168.1.57
+sudo su 
+nslookup beta.msg.com
+ifconfig 
+sudo su
+pwd
+cd Desktop/
+pwd
+scp -rv root@192.168.1.57:/aem/ap-backup/ap-new-author .
+scp -rv root@192.168.1.57:/aem/ap-backup/ap-new-author .
+rsync -avzh root@192.168.1.57:/aem/ap-backup/ap-new-author ap-new-author
+rsync -avzh root@192.168.1.57:/aem/ap-backup/ap-new-author ap-new-author
+rsync -avzh root@192.168.1.57:/aem/ap-backup/ap-new-author ap-new-author
+rsync -avzh root@192.168.1.57:/aem/ap-backup/ap-new-author ap-new-author
+rsync -avzh root@192.168.1.109:/Payback Payback
+rsync -avzh root@192.168.1.109:/Payback Payback
+ssh root@192.168.1.125
+nslookup bangalore.icfi.in
+nslookup 119.82.97.227
+nslookup bangalore.icfi.in
+nslookup bangalore.icfi.in
+nslookup bangalore.icfi.in
+ssh root@192.168.1.57
+ifconfig en1
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+su
+su
+su -
+su -
+sudo su
+cd
+ls
+cd ctmsp-chef/
+ls
+ls -al
+mkdir .chef
+cd
+pwd
+cd pems/
+ssh -i zebra-non-prod.pem root@52.203.192.226
+ls -al
+ssh -i zebra-non-prod.pem centos@52.203.192.226
+pwd
+cd ../ctmsp-scripts/aliases/
+ls
+vi ssh_aliases 
+szbstgdisp
+git pull
+cd /etc
+ls
+cd
+ls -al
+cd pems/
+ssh -i zebra-non-prod.pem root@52.203.192.226
+ssh -i zebra-non-prod.pem centos@52.203.192.226
+vi zebra-non-prod.pem 
+cd
+ssh z66s-aemweb01a
+ssh adey@z66s-aemweb01a
+ssh adey@z66s-aemauth01
+ssh root@192.168.1.1.125
+ssh root@192.168.1..125
+ssh root@192.168.1.125
+ssh root@192.168.1.109
+ssh adey@z66s-aemweb01a
+ssh adey@z66s-aemweb01b
+cd pems/
+ls
+ls -al
+ssh -i zebra-non-prod.pem root@52.203.192.226
+ssh -i zebra-prod.pem root@52.203.188.68
+ifconfig en1
+pwd
+cd Desktop/
+ls -al
+scp -rv root@192.168.1.57:/aem/ap-backup/ap-publish .
+scp -rv root@192.168.1.57:/aem/ap-backup/ap-publish .
+scp -rv root@192.168.1.57:/aem/ap-backup/ap-publish ap-publish
+rsync -avzh root@192.168.1.57:/aem/ap-backup/ap-publish ap-publish
+rsync -avzh root@192.168.1.57:/aem/ap-backup/ap-publish ap-publish
+ping 192.168.1.109
+ifconfig 
+nslookup bangalore.icfi.in
+gem install knife-ec2 --no-ri --no-rdoc
+gem install net-ssh --version 2.2.2 --no-ri --no-rdoc
+gem install net-ssh-gateway --version 1.2.0 --no-ri --no-rdoc
+gem install mime-types --version 1.19 --no-ri --no-rdoc
+gem install ohai --version 6.18 --no-ri --no-rdoc
+gem install net-ssh --version 2.6.8 --no-ri --no-rdoc
+gem install net-ssh-multi --version 1.2 --no-ri --no-rdoc
+gem install chef --version 11.10.4 --no-ri --no-rdoc
+cd
+ls
+ls -al
+cd pems/
+ls
+cd /Volumes/Elements/McHome/
+ls
+cd ctmsp-chef/
+ls
+ls -al
+cd .chef/
+ls
+ls -al
+cp -p * /Users/arnabdey73/ctmsp-chef/.chef/
+cp -rp * /Users/arnabdey73/ctmsp-chef/.chef/
+cd /Users/arnabdey73/ctmsp-chef/.chef/
+ls -al
+cd bootstrap/
+ls -al
+cd ../
+cd ../
+l s-al
+ls -al
+git pull
+pwd
+cd ../ctmsp-scripts/
+git pull
+git pull
+knife status | head -10
+cd
+knife status | head -10
+gem install knife-ec2 --no-ri --no-rdoc
+gem install chef --version 11.10.4 --no-ri --no-rdoc
+gem install net-ssh --version 2.2.2 --no-ri --no-rdoc
+cd ctmsp-chef/.chef/
+ls
+vi knife.rb 
+vi arnabdey73.pem 
+ls -al
+knife status | head -10
+ls -al
+vi ctmsp-validator.pem 
+pwd
+chmod 644 *.pem
+ls -al
+knife status | head -10
+vi knife.rb 
+ln -s /Users/arnabdey73/ctmsp-scripts/chef/bootstrap/ /Users/arnabdey73/ctmsp-chef/.chef/bootstrap
+knife status | head -10
+ls
+mv arnabdey73.pem /tmp
+cp /Users/arnabdey73/Downloads/arnabdey73.pem .
+ls
+ls -al
+knife status | head -10
+vi knife.rb 
+ping 192.168.1.109
+ping 192.168.1.109
+ping 192.168.1.97
+cd
+ssh-keygen 
+cd .ssh/
+ls
+cp id_rsa.pub ../Desktop/arnab_pub.key
+cd ../Desktop/
+ls
+ls -al
+ls
+cd
+cd pems/
+ls
+ssh -i zebra-prod.pem root@52.203.188.68
+ssh -i zebra-prod.pem root@52.70.76.93
+ssh -i zebra-prod.pem root@52.203.192.226
+ssh -i zebra-prod.pem root@52.203.195.233
+ssh -i zebra-prod.pem root@174.129.176.155
+cd
+ssh adey@z66s-aemweb01a
+ssh adey@z66s-aemweb01b
+ssh adey@z66s-aemweb01c
+ssh adey@z66s-aemauth01
+cd
+cd pems/
+ssh -i zebra-non-prod.pem root@52.203.188.68
+ssh -i zebra-prod.pem root@52.203.188.68
+exit
+pwd
+ssh -i zebra-prod.pem root@52.203.188.68
+::qq:::::q
+pwd
+cd 
+cd pems/
+ssh -i zebra-prod.pem root@52.70.76.93
+cd /Volumes/ICF-HDD/
+ls
+cd Mad\ Max\ Fury\ Road\ \(2015\)\ \[3D\]\ \[HSBS\]/
+ls
+open Mad.Max.Fury.Road.2015.1080p.3D.HSBS.BluRay.x264.YIFY.mp4 
+cd
+nslookup bagalore.icfi.in
+nslookup bangalore.icfi.in
+pwd
+cd pems/
+ssh -i zebra-prod.pem 
+ssh -i zebra-prod.pem root@52.203.188.68
+ssh -i zebra-prod.pem root@52.70.76.93
+ssh root@52.70.76.93
+ssh root@52.203.196.144
+cd ../ctmsp-scripts/aliases/
+ls
+vi ssh_aliases 
+cd ..
+git pull
+cd ../ctmsp-chef/
+git pull
+cd ../pems/
+ssh root@52.203.192.226
+cd /Applications/IntelliJ\ IDEA\ 15.app/Contents/bin/
+ls
+vi idea.vmoptions 
+cp /Users/arnabdey73/Downloads/IntelliJ\ IDEA\ 15.0.3/JetBrainsCrackV2.4/JetbrainsCrack.jar .
+ls -al
+cd
+cd /Applications/
+ls
+ls
+cd IntelliJ\ IDEA.app/Contents/bin/
+ls
+vi idea.vmoptions 
+cp /Users/arnabdey73/Downloads/IntelliJ\ IDEA\ 15.0.3/JetBrainsCrackV2.4/JetbrainsCrack.jar .
+ls
+rm JetbrainsCrack.jar 
+vi idea.vmoptions 
+cd
+cd /Applications/IntelliJ\ IDEA\ 15.app/Contents/bin/
+cp /Users/arnabdey73/Downloads/IntelliJ\ IDEA\ 15.0.3/JetBrainsCrackV2.4/JetbrainsCrack.jar .
+ls
+vi idea.vmoptions 
+cd
+ls
+cd /Applications/IntelliJ\ IDEA\ 15.app/
+ls
+cd Contents/
+ls
+cd bin/
+ls
+ls -al
+cd ../
+ls
+cd li
+cd lib/
+ls
+cd
+ls
+cd aem-dispatcher/
+ls
+ls
+cd ../
+ls
+rm aem-dispatcher/
+rm -rf aem-dispatcher/
+mkdir Idea
+cd
+ping 192.168.1.180
+ping 192.168.1.180
+ping 192.168.1.180
+ping 192.168.1.182
+ping 192.168.1.182
+ping 192.168.1.180
+ping 192.168.1.180
+ping 192.168.1.183
+ping 192.168.1.183
+ping 192.168.1.184
+ping 192.168.1.185
+ping 192.168.1.190
+cd /Applications/IntelliJ\ IDEA\ 15.app/Contents/bin/
+ls
+vi idea.vmoptions 
+pwd
+cp /Users/arnabdey73/Downloads/IntelliJ\ IDEA\ 15.0.3/JetBrainsCrackV2.4/JetbrainsCrack.jar .
+cd
+ssh root@192.168.1.125
+cd
+cd ctmsp-scripts/
+git pull
+git pull
+git pull
+cd ../ctmsp-scripts/
+git pull
+cd
+ssh root@192.168.1.125
+ssh root@52.203.188.68

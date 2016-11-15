@@ -1,0 +1,501 @@
+nslookup beta.msg.com
+ifconfig 
+sudo su
+pwd
+cd Desktop/
+pwd
+scp -rv root@192.168.1.57:/aem/ap-backup/ap-new-author .
+scp -rv root@192.168.1.57:/aem/ap-backup/ap-new-author .
+rsync -avzh root@192.168.1.57:/aem/ap-backup/ap-new-author ap-new-author
+rsync -avzh root@192.168.1.57:/aem/ap-backup/ap-new-author ap-new-author
+rsync -avzh root@192.168.1.57:/aem/ap-backup/ap-new-author ap-new-author
+rsync -avzh root@192.168.1.57:/aem/ap-backup/ap-new-author ap-new-author
+rsync -avzh root@192.168.1.109:/Payback Payback
+rsync -avzh root@192.168.1.109:/Payback Payback
+ssh root@192.168.1.125
+nslookup bangalore.icfi.in
+nslookup 119.82.97.227
+nslookup bangalore.icfi.in
+nslookup bangalore.icfi.in
+nslookup bangalore.icfi.in
+ssh root@192.168.1.57
+ifconfig en1
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+ssh root@192.168.1.109
+su
+su
+su -
+su -
+sudo su
+cd
+ls
+cd ctmsp-chef/
+ls
+ls -al
+mkdir .chef
+cd
+pwd
+cd pems/
+ssh -i zebra-non-prod.pem root@52.203.192.226
+ls -al
+ssh -i zebra-non-prod.pem centos@52.203.192.226
+pwd
+cd ../ctmsp-scripts/aliases/
+ls
+vi ssh_aliases 
+szbstgdisp
+git pull
+cd /etc
+ls
+cd
+ls -al
+cd pems/
+ssh -i zebra-non-prod.pem root@52.203.192.226
+ssh -i zebra-non-prod.pem centos@52.203.192.226
+vi zebra-non-prod.pem 
+cd
+ssh z66s-aemweb01a
+ssh adey@z66s-aemweb01a
+ssh adey@z66s-aemauth01
+ssh root@192.168.1.1.125
+ssh root@192.168.1..125
+ssh root@192.168.1.125
+ssh root@192.168.1.109
+ssh adey@z66s-aemweb01a
+ssh adey@z66s-aemweb01b
+cd pems/
+ls
+ls -al
+ssh -i zebra-non-prod.pem root@52.203.192.226
+ssh -i zebra-prod.pem root@52.203.188.68
+ifconfig en1
+pwd
+cd Desktop/
+ls -al
+scp -rv root@192.168.1.57:/aem/ap-backup/ap-publish .
+scp -rv root@192.168.1.57:/aem/ap-backup/ap-publish .
+scp -rv root@192.168.1.57:/aem/ap-backup/ap-publish ap-publish
+rsync -avzh root@192.168.1.57:/aem/ap-backup/ap-publish ap-publish
+rsync -avzh root@192.168.1.57:/aem/ap-backup/ap-publish ap-publish
+ping 192.168.1.109
+ifconfig 
+nslookup bangalore.icfi.in
+gem install knife-ec2 --no-ri --no-rdoc
+gem install net-ssh --version 2.2.2 --no-ri --no-rdoc
+gem install net-ssh-gateway --version 1.2.0 --no-ri --no-rdoc
+gem install mime-types --version 1.19 --no-ri --no-rdoc
+gem install ohai --version 6.18 --no-ri --no-rdoc
+gem install net-ssh --version 2.6.8 --no-ri --no-rdoc
+gem install net-ssh-multi --version 1.2 --no-ri --no-rdoc
+gem install chef --version 11.10.4 --no-ri --no-rdoc
+cd
+ls
+ls -al
+cd pems/
+ls
+cd /Volumes/Elements/McHome/
+ls
+cd ctmsp-chef/
+ls
+ls -al
+cd .chef/
+ls
+ls -al
+cp -p * /Users/arnabdey73/ctmsp-chef/.chef/
+cp -rp * /Users/arnabdey73/ctmsp-chef/.chef/
+cd /Users/arnabdey73/ctmsp-chef/.chef/
+ls -al
+cd bootstrap/
+ls -al
+cd ../
+cd ../
+l s-al
+ls -al
+git pull
+pwd
+cd ../ctmsp-scripts/
+git pull
+git pull
+knife status | head -10
+cd
+knife status | head -10
+gem install knife-ec2 --no-ri --no-rdoc
+gem install chef --version 11.10.4 --no-ri --no-rdoc
+gem install net-ssh --version 2.2.2 --no-ri --no-rdoc
+cd ctmsp-chef/.chef/
+ls
+vi knife.rb 
+vi arnabdey73.pem 
+ls -al
+knife status | head -10
+ls -al
+vi ctmsp-validator.pem 
+pwd
+chmod 644 *.pem
+ls -al
+knife status | head -10
+vi knife.rb 
+ln -s /Users/arnabdey73/ctmsp-scripts/chef/bootstrap/ /Users/arnabdey73/ctmsp-chef/.chef/bootstrap
+knife status | head -10
+ls
+mv arnabdey73.pem /tmp
+cp /Users/arnabdey73/Downloads/arnabdey73.pem .
+ls
+ls -al
+knife status | head -10
+vi knife.rb 
+ping 192.168.1.109
+ping 192.168.1.109
+ping 192.168.1.97
+cd
+ssh-keygen 
+cd .ssh/
+ls
+cp id_rsa.pub ../Desktop/arnab_pub.key
+cd ../Desktop/
+ls
+ls -al
+ls
+cd
+cd pems/
+ls
+ssh -i zebra-prod.pem root@52.203.188.68
+ssh -i zebra-prod.pem root@52.70.76.93
+ssh -i zebra-prod.pem root@52.203.192.226
+ssh -i zebra-prod.pem root@52.203.195.233
+ssh -i zebra-prod.pem root@174.129.176.155
+cd
+ssh adey@z66s-aemweb01a
+ssh adey@z66s-aemweb01b
+ssh adey@z66s-aemweb01c
+ssh adey@z66s-aemauth01
+cd
+cd pems/
+ssh -i zebra-non-prod.pem root@52.203.188.68
+ssh -i zebra-prod.pem root@52.203.188.68
+exit
+pwd
+ssh -i zebra-prod.pem root@52.203.188.68
+::qq:::::q
+pwd
+cd 
+cd pems/
+ssh -i zebra-prod.pem root@52.70.76.93
+cd /Volumes/ICF-HDD/
+ls
+cd Mad\ Max\ Fury\ Road\ \(2015\)\ \[3D\]\ \[HSBS\]/
+ls
+open Mad.Max.Fury.Road.2015.1080p.3D.HSBS.BluRay.x264.YIFY.mp4 
+cd
+nslookup bagalore.icfi.in
+nslookup bangalore.icfi.in
+pwd
+cd pems/
+ssh -i zebra-prod.pem 
+ssh -i zebra-prod.pem root@52.203.188.68
+ssh -i zebra-prod.pem root@52.70.76.93
+ssh root@52.70.76.93
+ssh root@52.203.196.144
+cd ../ctmsp-scripts/aliases/
+ls
+vi ssh_aliases 
+cd ..
+git pull
+cd ../ctmsp-chef/
+git pull
+cd ../pems/
+ssh root@52.203.192.226
+cd /Applications/IntelliJ\ IDEA\ 15.app/Contents/bin/
+ls
+vi idea.vmoptions 
+cp /Users/arnabdey73/Downloads/IntelliJ\ IDEA\ 15.0.3/JetBrainsCrackV2.4/JetbrainsCrack.jar .
+ls -al
+cd
+cd /Applications/
+ls
+ls
+cd IntelliJ\ IDEA.app/Contents/bin/
+ls
+vi idea.vmoptions 
+cp /Users/arnabdey73/Downloads/IntelliJ\ IDEA\ 15.0.3/JetBrainsCrackV2.4/JetbrainsCrack.jar .
+ls
+rm JetbrainsCrack.jar 
+vi idea.vmoptions 
+cd
+cd /Applications/IntelliJ\ IDEA\ 15.app/Contents/bin/
+cp /Users/arnabdey73/Downloads/IntelliJ\ IDEA\ 15.0.3/JetBrainsCrackV2.4/JetbrainsCrack.jar .
+ls
+vi idea.vmoptions 
+cd
+ls
+cd /Applications/IntelliJ\ IDEA\ 15.app/
+ls
+cd Contents/
+ls
+cd bin/
+ls
+ls -al
+cd ../
+ls
+cd li
+cd lib/
+ls
+cd
+ls
+cd aem-dispatcher/
+ls
+ls
+cd ../
+ls
+rm aem-dispatcher/
+rm -rf aem-dispatcher/
+mkdir Idea
+cd
+ping 192.168.1.180
+ping 192.168.1.180
+ping 192.168.1.180
+ping 192.168.1.182
+ping 192.168.1.182
+ping 192.168.1.180
+ping 192.168.1.180
+ping 192.168.1.183
+ping 192.168.1.183
+ping 192.168.1.184
+ping 192.168.1.185
+ping 192.168.1.190
+cd /Applications/IntelliJ\ IDEA\ 15.app/Contents/bin/
+ls
+vi idea.vmoptions 
+pwd
+cp /Users/arnabdey73/Downloads/IntelliJ\ IDEA\ 15.0.3/JetBrainsCrackV2.4/JetbrainsCrack.jar .
+cd
+ssh root@192.168.1.125
+cd
+cd ctmsp-scripts/
+git pull
+git pull
+git pull
+cd ../ctmsp-scripts/
+git pull
+cd
+ssh root@192.168.1.125
+ssh root@52.203.188.68
+ls
+cd ctmsp-chef/
+ls
+git pull
+ssh root@192.168.1.125
+ssh root@192.168.1.125
+cd
+ssh root@52.203.188.68
+sudo su
+ssh root@52.203.188.68
+cd
+ls
+cd Idea/
+ls
+cd aem-dispatcher/
+ls
+ls -al
+cd ../
+ls
+ls -al
+ls
+ls -al
+mv httpd httpd-leg
+ls -al
+cd httpd-leg/
+ls -al
+cd ../
+git add httpd-leg
+cd
+cd /Volumes/My\ Passport/
+ls -a
+ls -al
+cd My\ movie/
+ls
+cd pointers/
+ls
+cd hetc1/
+ls
+cd New\ Folder/
+ls
+open Media.mp4 
+open Appetizing\ Indian\ seductress\ teases\ her\ pussy\ passionately.mp4 
+open Hope\ Howell\ sharing\ her\ hairy\ pussy\ with\ with\ Emma\ Evins\ -\ P.mp4 
+open She\ gives\ you\ very\ detailed\ masturbation\ instruction\,\ follow.mp4 
+open Juliette\ March\ Takes\ A\ Turn\ With\ The\ Hairy\ Pussy\ -\ Free\ Porn.flv 
+open Super\ Hairy\ Bush.mp4 
+open Tali\ Dova\ gets\ a\ cock\ in\ her\ hairy\ muff\ -\ Pornhub.com.mp4 
+open Lesbians\ Massage\ HAIRY\ PUSSY\ Tokyo\ girls\ with\ oil\ -\ NV\ -\ por.mp4 
+ls
+open HomeGrownHairyBush\ Hairy\ Bushed\ Brunette\ Rides\ A\ Stiff\ Cock\ .mp4 
+open very\ hairy\ long\ nippled\ scene\ -\ Pornhub.com.mp4 
+cd
+ssh root@172.25.110.157
+ping 192.168.1.99
+ping 192.168.1.99
+ssh root@192.168.1.109
+sudo su
+ssh root@192.168.1.109
+ssh root@52.203.192.226
+ssh root@52.203.192.226
+ssh root@192.168.1.125
+ssh root@52.172.10.123 -p 52364
+ssh root@104.211.226.84 -p 58943
+ssh root@52.172.10.123 -p 52364
+ssh root@52.172.10.123 -p 50986
+ssh root@104.211.226.84 -p 51149
+brew install figlet
+figlet venky
+figlet Arnab
+ping 104.211.226.84
+ssh root@104.211.226.84
+ssh root@104.211.226.84 -p 55929
+vi /etc/hosts
+ssh root@192.168.1.57
+ssh root@52.172.10.123 -p 52364
+ssh root@52.172.10.123 -p 52364
+ssh arnabdey73@192.168.212.130
+ssh root@172.25.110.156
+ssh root@52.172.10.123 -p 52364
+ssh root@52.172.10.123 -p 50986
+ssh root@52.172.10.123 -p 50986
+ifconfig 
+ping google.com
+ssh root@192.168.1.125
+pwd
+ls
+cd ctmsp-scripts/
+ls
+git pull
+ls
+cd ../ctmsp-chef/
+git pull
+cd
+top
+top
+ssh arnabdey73@192.168.212.130
+ssh arnabdey73@192.168.212.130
+ssh arnabdey73@192.168.212.130
+ssh root@192.168.1.125
+ssh arnabdey73@192.168.212.130
+ssh root@1912.168.1.57
+ssh root@192.168.1.57
+ssh root@192.168.1.57
+ssh root@192.168.1.57
+ifconfig en1
+cd Desktop/
+scp -p root@192.168.1.57:/usr/src/scripts/dymotd .
+ls -al
+scp -p dymotd root@192.168.212.129:/tmp/
+ssh root@192.168.212.129
+ssh root@192.168.212.129
+ssh root@192.168.212.129
+ssh root@192.168.212.129
+vi /etc/hosts
+sudo su
+ssh root@192.168.1.125
+ssh root@192.168.1.57
+ssh root@192.168.1.57
+ssh root@192.168.1.125
+ssh root@192.168.212.131
+ssh root@192.168.1.57
+ssh root@192.168.1.57
+ssh root@172.16.200.9
+ping 172.25.110.156
+ifconfig 
+ssh jenkins@52.172.13.10
+w
+ssh root@192.168.1.125
+ssh root@192.168.1.125
+ssh root@192.168.1.19
+ssh root@192.168.212.134
+ssh root@52.172.10.123 -p 52364
+ssh root@52.172.10.123 -p 50986
+ssh root@192.168.212.134
+ssh root@192.168.1.57
+ssh root@192.168.1.57
+ssh root@192.168.1.57
+cd
+ssh root@52.203.188.68
+ssh root@52.70.76.93
+ssh root@52.203.188.68
+vi /etc/hosts
+vi /etc/hosts
+ssh root@172.25.110.167
+ssh root@172.25.110.167
+cd
+ssh root@52.70.76.93
+cd Documents/
+ls
+ls
+ssh -i qach7auth.pem centos@52.62.174.80
+ssh root@52.62.174.80
+ssh -i qach7auth.pem centos@52.62.141.84
+ssh -i qach7auth.pem centos@52.62.117.242
+ssh -i qach7auth.pem centos@52.62.41.126
+cd
+ssh root@52.203.192.226
+ssh root@52.203.192.226
+ssh root@172.25.110.167
+ssh root@172.25.110.157
+ssh root@172.25.110.157
+ssh root@52.203.192.226
+ssh root@52.203.192.226
+cd Desktop/
+scp cq-quickstart-6.2.0.jar root@192.168.1.57:/opt/
+ssh root@172.25.110.157
+ssh root@192.168.1.125
+cd ../Downloads/
+gpg 
+gpg --import kwonal.pub 
+gpg --list-keys
+gpg -d kwonal.pub --output kwonal.txt
+gpg --decrypt kwonal.pub --output kwonal.txt
+man gpg
+gpg -d kwonal.pub 
+gpg -d kwonal.pub 
+cd
+ssh root@52.203.192.226
+cd
+ssh root@52.203.188.68
+cd Documents/
+ssh -i qach7auth.pem centos@52.62.41.126
+ssh -i qach7auth.pem centos@52.62.38.207
+ssh -i qach7auth.pem centos@52.62.5.19
+ssh -i qach7auth.pem centos@52.62.121.242
+ssh -i qach7auth.pem centos@52.64.124.17
+cd
+nvram boot-args=”kext-dev-mode=1 rootless=0″
+sudo nvram boot-args=”kext-dev-mode=1 rootless=0″
+ll
+ls -lah
+pwd
+vi .bash_profile 
+source .bash_profile
+ll
+cd
+cd Desktop/
+ll
+sudo -i
+cd
+ssh root@192.168.1.57
+ssh root@192.168.1.57
+ssh root@192.168.1.57
+ssh root@192.168.1.57
+ssh root@192.168.1.57
+ssh root@192.168.1.57
+ssh root@192.168.1.57
+telnet towel.blinkenlights.nl
+zebprodisp2

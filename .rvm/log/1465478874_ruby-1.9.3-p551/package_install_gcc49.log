@@ -1,0 +1,136 @@
+[2016-06-09 18:58:13] requirements_osx_brew_libs_install
+requirements_osx_brew_libs_install () 
+{ 
+    brew unlink "$@" || true;
+    brew install "$@" || { 
+        \typeset ret=$?;
+        rvm_warn "There were package installation errors, make sure to read the log.
+
+Try \`brew tap --repair\` and make sure \`brew doctor\` looks reasonable.
+
+Check Homebrew requirements https://github.com/Homebrew/homebrew/wiki/Installation";
+        case "$_system_version" in 
+            10.6)
+                rvm_warn "
+On OSX 10.6 instead of command line tools install:
+    https://github.com/downloads/kennethreitz/osx-gcc-installer/GCC-10.6.pkg"
+            ;;
+        esac;
+        return $ret
+    }
+}
+current path: /Users/arnabdey73
+GEM_HOME=/Users/arnabdey73/.rvm/gems/ruby-2.3.0
+PATH=/Users/arnabdey73/.rvm/gems/ruby-2.3.0/bin:/Users/arnabdey73/.rvm/gems/ruby-2.3.0@global/bin:/Users/arnabdey73/.rvm/rubies/ruby-2.3.0/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arnabdey73/.rvm/bin
+GEM_PATH=/Users/arnabdey73/.rvm/gems/ruby-2.3.0:/Users/arnabdey73/.rvm/gems/ruby-2.3.0@global
+command(2): requirements_osx_brew_libs_install gcc49
+++ brew unlink gcc49
+Error: No such keg: /usr/local/Cellar/gcc49
+++ true
+++ brew install gcc49
+==> Installing gcc49 from homebrew/versions
+==> Installing dependencies for homebrew/versions/gcc49: gmp4, mpfr2, libmpc08, isl011, cloog018
+==> Installing homebrew/versions/gcc49 dependency: gmp4
+==> Downloading https://homebrew.bintray.com/bottles-versions/gmp4-4.3.2.el_capitan.bottle.1.tar.gz
+==> Pouring gmp4-4.3.2.el_capitan.bottle.1.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+Conflicts with gmp in main repository.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/gmp4/lib
+    CPPFLAGS: -I/usr/local/opt/gmp4/include
+
+==> Summary
+🍺  /usr/local/Cellar/gmp4/4.3.2: 19 files, 2.4M
+==> Installing homebrew/versions/gcc49 dependency: mpfr2
+==> Downloading https://homebrew.bintray.com/bottles-versions/mpfr2-2.4.2.el_capitan.bottle.1.tar.gz
+==> Pouring mpfr2-2.4.2.el_capitan.bottle.1.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+Conflicts with mpfr in main repository.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/mpfr2/lib
+    CPPFLAGS: -I/usr/local/opt/mpfr2/include
+
+==> Summary
+🍺  /usr/local/Cellar/mpfr2/2.4.2: 24 files, 2.7M
+==> Installing homebrew/versions/gcc49 dependency: libmpc08
+==> Downloading https://homebrew.bintray.com/bottles-versions/libmpc08-0.8.1.el_capitan.bottle.1.tar.gz
+==> Pouring libmpc08-0.8.1.el_capitan.bottle.1.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+Conflicts with libmpc in main repository.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/libmpc08/lib
+    CPPFLAGS: -I/usr/local/opt/libmpc08/include
+
+==> Summary
+🍺  /usr/local/Cellar/libmpc08/0.8.1: 11 files, 271.2K
+==> Installing homebrew/versions/gcc49 dependency: isl011
+==> Downloading https://homebrew.bintray.com/bottles-versions/isl011-0.11.1.el_capitan.bottle.1.tar.gz
+==> Pouring isl011-0.11.1.el_capitan.bottle.1.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+Conflicts with isl in main repository.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/isl011/lib
+    CPPFLAGS: -I/usr/local/opt/isl011/include
+
+==> Summary
+🍺  /usr/local/Cellar/isl011/0.11.1: 53 files, 2.6M
+==> Installing homebrew/versions/gcc49 dependency: cloog018
+==> Downloading https://homebrew.bintray.com/bottles-versions/cloog018-0.18.0.el_capitan.bottle.1.tar.gz
+==> Pouring cloog018-0.18.0.el_capitan.bottle.1.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /usr/local.
+
+Conflicts with cloog in main repository.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/cloog018/lib
+    CPPFLAGS: -I/usr/local/opt/cloog018/include
+
+==> Summary
+🍺  /usr/local/Cellar/cloog018/0.18.0: 32 files, 442.6K
+==> Installing homebrew/versions/gcc49
+==> Downloading http://ftpmirror.gnu.org/gcc/gcc-4.9.3/gcc-4.9.3.tar.bz2
+==> Downloading from http://infinity.kmeacollege.ac.in/gnu/gcc/gcc-4.9.3/gcc-4.9.3.tar.bz2
+==> Downloading https://gcc.gnu.org/bugzilla/attachment.cgi?id=35773
+==> Downloading https://gist.githubusercontent.com/tdsmith/d248e025029add31e7aa/raw/444e292786df41346a3a1cc6267bba587408a007/gcc.diff
+==> Patching
+==> Applying attachment.cgi
+patching file gcc/config/darwin.c
+Hunk #1 succeeded at 1232 (offset -27 lines).
+==> Applying gcc.diff
+patching file gcc/configure
+Hunk #1 succeeded at 24810 (offset -74 lines).
+Hunk #2 succeeded at 24841 (offset -74 lines).
+patching file gcc/configure.ac
+Hunk #1 succeeded at 3858 (offset -11 lines).
+==> ../configure --build=x86_64-apple-darwin15.5.0 --prefix=/usr/local/Cellar/gcc49/4.9.3 --libdir=/usr/local/Cellar/gcc49/4.9.3/lib/gcc/4.9 --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-4.9 --with-gmp=/usr/local/opt/gmp4 --with-mpfr=/usr/local/opt/mpfr2 --with-mpc=/usr/local/opt/libmpc08 --with-cloog=/usr/local/opt/cloog018 --with-isl=/usr/local/opt/isl011 --with-system-zlib --enable-libstdcxx-time=yes --enable-stage1-checking --enable-checking=release --enable-lto --with-build-config=bootstrap-debug --disable-werror --with-pkgversion=Homebrew gcc49 4.9.3 --with-bugurl=https://github.com/Homebrew/homebrew-versions/issues --enable-plugin --disable-nls --enable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk
+==> make bootstrap
+==> make install
+🍺  /usr/local/Cellar/gcc49/4.9.3: 1,180 files, 202.0M, built in 38 minutes 55 seconds

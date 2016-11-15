@@ -1,0 +1,65 @@
+[2016-06-09 16:56:57] __rvm_package_extract
+__rvm_package_extract () 
+{ 
+    rvm_debug __rvm_package_extract:$#: "$@";
+    \typeset __tempdir __path __file __return;
+    __return=0;
+    __tempdir="$( TMPDIR="${rvm_tmp_path}" mktemp -d -t rvm-tmp.XXXXXXXXX )";
+    __rvm_package_extract_run "$1" "$__tempdir" || __return=$?;
+    if (( __return == 0 )); then
+        for __path in "$__tempdir"/*;
+        do
+            __file="${__path##*/}";
+            if [[ -n "${__file}" && -e "$2/${__file}" ]]; then
+                \command \rm -rf "$2/${__file}" || __return=$?;
+            fi;
+            \command \mv -f "${__path}" "$2/" || __return=$?;
+        done;
+    fi;
+    if [[ -n "$__tempdir" ]]; then
+        \command \rm -rf "$__tempdir";
+    fi;
+    return $__return
+}
+current path: /Users/arnabdey73/.rvm/src
+PATH=/usr/local/opt/pkg-config/bin:/usr/local/opt/libtool/bin:/usr/local/opt/automake/bin:/usr/local/opt/autoconf/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arnabdey73/.rvm/bin
+command(3): __rvm_package_extract /Users/arnabdey73/.rvm/archives/ruby-2.3.0.tar.bz2 /Users/arnabdey73/.rvm/tmp/rvm_src_9880
+++ /scripts/functions/utility_package : __rvm_package_extract()  69 > rvm_debug __rvm_package_extract:2: /Users/arnabdey73/.rvm/archives/ruby-2.3.0.tar.bz2 /Users/arnabdey73/.rvm/tmp/rvm_src_9880
+++ /scripts/functions/logging : rvm_debug()  144 > ((  0  ))
+++ /scripts/functions/logging : rvm_debug()  144 > return 0
+++ /scripts/functions/utility_package : __rvm_package_extract()  70 > typeset __tempdir __path __file __return
+++ /scripts/functions/utility_package : __rvm_package_extract()  71 > __return=0
++++ /scripts/functions/utility_package : __rvm_package_extract()  72 > TMPDIR=/Users/arnabdey73/.rvm/tmp
++++ /scripts/functions/utility_package : __rvm_package_extract()  72 > mktemp -d -t rvm-tmp.XXXXXXXXX
+++ /scripts/functions/utility_package : __rvm_package_extract()  72 > __tempdir=/var/folders/r_/ww0_qwq50r37md6b_11ldzv40000gn/T/rvm-tmp.XXXXXXXXX.8nu6lOn7
+++ /scripts/functions/utility_package : __rvm_package_extract()  73 > __rvm_package_extract_run /Users/arnabdey73/.rvm/archives/ruby-2.3.0.tar.bz2 /var/folders/r_/ww0_qwq50r37md6b_11ldzv40000gn/T/rvm-tmp.XXXXXXXXX.8nu6lOn7
+++ /scripts/functions/utility_package : __rvm_package_extract_run()  35 > [[    != *\ \-\-\n\o\-\s\a\m\e\-\o\w\n\e\r\ * ]]
+++ /scripts/functions/utility_package : __rvm_package_extract_run()  36 > __rvm_tar --help
+++ /scripts/functions/utility_package : __rvm_package_extract_run()  36 > __rvm_grep -- --no-same-owner
+++ /scripts/functions/support : __rvm_grep()  260 > GREP_OPTIONS=
+++ /scripts/functions/support : __rvm_grep()  260 > command grep -- --no-same-owner
+++ /scripts/functions/support : __rvm_grep()  260 > grep -- --no-same-owner
+++ /scripts/functions/support : __rvm_grep()  260 > return 1
+++ /scripts/functions/utility_package : __rvm_package_extract_run()  41 > [[ -d /var/folders/r_/ww0_qwq50r37md6b_11ldzv40000gn/T/rvm-tmp.XXXXXXXXX.8nu6lOn7 ]]
+++ /scripts/functions/utility_package : __rvm_package_extract_run()  42 > case "$1" in
+++ /scripts/functions/utility_package : __rvm_package_extract_run()  47 > [[ -n '' ]]
+++ /scripts/functions/utility_package : __rvm_package_extract_run()  49 > __rvm_tar xjf /Users/arnabdey73/.rvm/archives/ruby-2.3.0.tar.bz2 -C /var/folders/r_/ww0_qwq50r37md6b_11ldzv40000gn/T/rvm-tmp.XXXXXXXXX.8nu6lOn7
+++ /scripts/functions/support : __rvm_tar()  277 > tar xjf /Users/arnabdey73/.rvm/archives/ruby-2.3.0.tar.bz2 -C /var/folders/r_/ww0_qwq50r37md6b_11ldzv40000gn/T/rvm-tmp.XXXXXXXXX.8nu6lOn7
+++ /scripts/functions/utility_package : __rvm_package_extract_run()  62 > __rvm_fix_group_permissions /var/folders/r_/ww0_qwq50r37md6b_11ldzv40000gn/T/rvm-tmp.XXXXXXXXX.8nu6lOn7/ruby-2.3.0
+++ /scripts/functions/utility_package : __rvm_fix_group_permissions()  6 > umask -S
+++ /scripts/functions/utility_package : __rvm_fix_group_permissions()  6 > __rvm_grep g=rw
+++ /scripts/functions/support : __rvm_grep()  260 > GREP_OPTIONS=
+++ /scripts/functions/support : __rvm_grep()  260 > command grep g=rw
+++ /scripts/functions/support : __rvm_grep()  260 > grep g=rw
+++ /scripts/functions/support : __rvm_grep()  260 > return 1
+++ /scripts/functions/utility_package : __rvm_package_extract()  75 > ((  __return == 0  ))
+++ /scripts/functions/utility_package : __rvm_package_extract()  77 > for __path in '"$__tempdir"/*'
+++ /scripts/functions/utility_package : __rvm_package_extract()  79 > __file=ruby-2.3.0
+++ /scripts/functions/utility_package : __rvm_package_extract()  81 > [[ -n ruby-2.3.0 ]]
+++ /scripts/functions/utility_package : __rvm_package_extract()  81 > [[ -e /Users/arnabdey73/.rvm/tmp/rvm_src_9880/ruby-2.3.0 ]]
+++ /scripts/functions/utility_package : __rvm_package_extract()  85 > command mv -f /var/folders/r_/ww0_qwq50r37md6b_11ldzv40000gn/T/rvm-tmp.XXXXXXXXX.8nu6lOn7/ruby-2.3.0 /Users/arnabdey73/.rvm/tmp/rvm_src_9880/
+++ /scripts/functions/utility_package : __rvm_package_extract()  85 > mv -f /var/folders/r_/ww0_qwq50r37md6b_11ldzv40000gn/T/rvm-tmp.XXXXXXXXX.8nu6lOn7/ruby-2.3.0 /Users/arnabdey73/.rvm/tmp/rvm_src_9880/
+++ /scripts/functions/utility_package : __rvm_package_extract()  88 > [[ -n /var/folders/r_/ww0_qwq50r37md6b_11ldzv40000gn/T/rvm-tmp.XXXXXXXXX.8nu6lOn7 ]]
+++ /scripts/functions/utility_package : __rvm_package_extract()  89 > command rm -rf /var/folders/r_/ww0_qwq50r37md6b_11ldzv40000gn/T/rvm-tmp.XXXXXXXXX.8nu6lOn7
+++ /scripts/functions/utility_package : __rvm_package_extract()  89 > rm -rf /var/folders/r_/ww0_qwq50r37md6b_11ldzv40000gn/T/rvm-tmp.XXXXXXXXX.8nu6lOn7
+++ /scripts/functions/utility_package : __rvm_package_extract()  91 > return 0

@@ -1,0 +1,153 @@
+port version
+svn
+pwd
+ls
+cd /Volumes/Elements/
+ls -al
+cp -r pems /Users/arnabdey73/
+cd pems
+ls
+cd ../
+cd McHome/
+ls -al
+cp -r pems /Users/arnabdey73/
+cd /Users/arnabdey73/
+ls
+cd pems/
+ls
+ls -al
+sudo chmod 400 *.pem
+ls -al
+ssh -i qach7auth.pem centos@52.62.141.84
+cd /Volumes/SAFEER/
+ls -al
+cd
+pwd
+cd Documents/VMware_Fusion_Professional_8.1.0.3272237/
+ls
+ls -al
+./keymaker 
+cd
+cd Desktop/
+ls
+cd 
+cd pems/
+ssh -i qach7auth.pem centos@52.62.141.84
+ssh -i qach7auth.pem centos@52.62.141.84
+ssh -i qach7auth.pem centos@52.62.38.207
+ssh -i qach7auth.pem centos@52.62.38.207
+ssh -i qach7auth.pem centos@52.62.38.207
+ssh -i qach7auth.pem centos@52.62.5.19
+ssh -i qach7auth.pem centos@52.62.5.19
+ssh -i qach7auth.pem centos@52.62.5.19
+ls-al
+ls -al
+history
+ping 192.168.1.199
+ping 192.168.1.199
+ifconfig en1
+pwd
+cd Desktop/
+ls -al
+scp -rv root@192.168.1.57:/aem/ap-backup/ap-publish .
+scp -rv root@192.168.1.57:/aem/ap-backup/ap-publish .
+scp -rv root@192.168.1.57:/aem/ap-backup/ap-publish ap-publish
+rsync -avzh root@192.168.1.57:/aem/ap-backup/ap-publish ap-publish
+rsync -avzh root@192.168.1.57:/aem/ap-backup/ap-publish ap-publish
+ping 192.168.1.109
+ifconfig 
+nslookup bangalore.icfi.in
+gem install knife-ec2 --no-ri --no-rdoc
+gem install net-ssh --version 2.2.2 --no-ri --no-rdoc
+gem install net-ssh-gateway --version 1.2.0 --no-ri --no-rdoc
+gem install mime-types --version 1.19 --no-ri --no-rdoc
+gem install ohai --version 6.18 --no-ri --no-rdoc
+gem install net-ssh --version 2.6.8 --no-ri --no-rdoc
+gem install net-ssh-multi --version 1.2 --no-ri --no-rdoc
+gem install chef --version 11.10.4 --no-ri --no-rdoc
+cd
+ls
+ls -al
+cd pems/
+ls
+cd /Volumes/Elements/McHome/
+ls
+cd ctmsp-chef/
+ls
+ls -al
+cd .chef/
+ls
+ls -al
+cp -p * /Users/arnabdey73/ctmsp-chef/.chef/
+cp -rp * /Users/arnabdey73/ctmsp-chef/.chef/
+cd /Users/arnabdey73/ctmsp-chef/.chef/
+ls -al
+cd bootstrap/
+ls -al
+cd ../
+cd ../
+l s-al
+ls -al
+git pull
+pwd
+cd ../ctmsp-scripts/
+git pull
+git pull
+knife status | head -10
+cd
+knife status | head -10
+gem install knife-ec2 --no-ri --no-rdoc
+gem install chef --version 11.10.4 --no-ri --no-rdoc
+gem install net-ssh --version 2.2.2 --no-ri --no-rdoc
+cd ctmsp-chef/.chef/
+ls
+vi knife.rb 
+vi arnabdey73.pem 
+ls -al
+knife status | head -10
+ls -al
+vi ctmsp-validator.pem 
+pwd
+chmod 644 *.pem
+ls -al
+knife status | head -10
+vi knife.rb 
+ln -s /Users/arnabdey73/ctmsp-scripts/chef/bootstrap/ /Users/arnabdey73/ctmsp-chef/.chef/bootstrap
+knife status | head -10
+ls
+mv arnabdey73.pem /tmp
+cp /Users/arnabdey73/Downloads/arnabdey73.pem .
+ls
+ls -al
+knife status | head -10
+vi knife.rb 
+ping 192.168.1.109
+ping 192.168.1.109
+ping 192.168.1.97
+cd
+ssh-keygen 
+cd .ssh/
+ls
+cp id_rsa.pub ../Desktop/arnab_pub.key
+cd ../Desktop/
+ls
+ls -al
+ls
+cd
+cd pems/
+ls
+ssh -i zebra-prod.pem root@52.203.188.68
+ssh -i zebra-prod.pem root@52.70.76.93
+ssh -i zebra-prod.pem root@52.203.192.226
+ssh -i zebra-prod.pem root@52.203.195.233
+ssh -i zebra-prod.pem root@174.129.176.155
+cd
+ssh adey@z66s-aemweb01a
+ssh adey@z66s-aemweb01b
+ssh adey@z66s-aemweb01c
+ssh adey@z66s-aemauth01
+cd
+cd pems/
+ssh -i zebra-non-prod.pem root@52.203.188.68
+ssh -i zebra-prod.pem root@52.203.188.68
+exit

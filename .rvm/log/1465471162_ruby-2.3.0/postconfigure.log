@@ -1,0 +1,14 @@
+[2016-06-09 16:57:52] __rvm_post_configure_ruby
+__rvm_post_configure_ruby () 
+{ 
+    __rvm_post_configure_ruby_fix_athlon_sse2;
+    __rvm_post_configure_ruby_update_setup
+}
+current path: /Users/arnabdey73/.rvm/src/ruby-2.3.0
+PATH=/usr/local/opt/pkg-config/bin:/usr/local/opt/libtool/bin:/usr/local/opt/automake/bin:/usr/local/opt/autoconf/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arnabdey73/.rvm/bin
+command(1): __rvm_post_configure_ruby
+++ /scripts/functions/manage/ruby : __rvm_post_configure_ruby()  122 > __rvm_post_configure_ruby_fix_athlon_sse2
+++ /scripts/functions/manage/ruby : __rvm_post_configure_ruby_fix_athlon_sse2()  129 > [[ -f /proc/cpuinfo ]]
+++ /scripts/functions/manage/ruby : __rvm_post_configure_ruby()  123 > __rvm_post_configure_ruby_update_setup
+++ /scripts/functions/manage/ruby : __rvm_post_configure_ruby_update_setup()  139 > typeset option
+++ /scripts/functions/manage/ruby : __rvm_post_configure_ruby_update_setup()  141 > ((  0 == 1  ))

@@ -1,0 +1,20 @@
+[2016-06-09 18:58:04] requirements_osx_brew_install_custom
+requirements_osx_brew_install_custom () 
+{ 
+    \typeset __tap;
+    for __tap in "$@";
+    do
+        brew tap "${__tap}" || return $?;
+    done
+}
+current path: /Users/arnabdey73
+GEM_HOME=/Users/arnabdey73/.rvm/gems/ruby-2.3.0
+PATH=/Users/arnabdey73/.rvm/gems/ruby-2.3.0/bin:/Users/arnabdey73/.rvm/gems/ruby-2.3.0@global/bin:/Users/arnabdey73/.rvm/rubies/ruby-2.3.0/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arnabdey73/.rvm/bin
+GEM_PATH=/Users/arnabdey73/.rvm/gems/ruby-2.3.0:/Users/arnabdey73/.rvm/gems/ruby-2.3.0@global
+command(2): requirements_osx_brew_install_custom homebrew/versions
+++ typeset __tap
+++ for __tap in '"$@"'
+++ brew tap homebrew/versions
+==> Tapping homebrew/versions
+Cloning into '/usr/local/Library/Taps/homebrew/homebrew-versions'...
+Tapped 216 formulae (243 files, 973.4K)

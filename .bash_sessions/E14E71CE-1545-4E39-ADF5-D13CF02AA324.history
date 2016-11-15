@@ -1,0 +1,39 @@
+port version
+svn
+pwd
+ls
+cd /Volumes/Elements/
+ls -al
+cp -r pems /Users/arnabdey73/
+cd pems
+ls
+cd ../
+cd McHome/
+ls -al
+cp -r pems /Users/arnabdey73/
+cd /Users/arnabdey73/
+ls
+cd pems/
+ls
+ls -al
+sudo chmod 400 *.pem
+ls -al
+ssh -i qach7auth.pem centos@52.62.141.84
+cd /Volumes/SAFEER/
+ls -al
+cd
+pwd
+cd Documents/VMware_Fusion_Professional_8.1.0.3272237/
+ls
+ls -al
+./keymaker 
+cd
+cd Desktop/
+ls
+cd 
+cd pems/
+ssh -i qach7auth.pem centos@52.62.141.84
+ssh -i qach7auth.pem centos@52.62.141.84
+ssh -i qach7auth.pem centos@52.62.38.207
+ssh -i qach7auth.pem centos@52.62.38.207
+ssh -i qach7auth.pem centos@52.62.38.207
